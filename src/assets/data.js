@@ -1,12 +1,5 @@
 export const dinos = [
     {
-        id: 0,
-        name:"",
-        movies:["JP1", "JP2", "JP3", "JW", "JW2", "JW3"],
-        diet: "veggies/meat/omnivore",
-        image: "url.blahblah"
-    },
-    {
         id: 1,
         name:"Allosaurus",
         movies:["JW2", "JW3"],
@@ -46,13 +39,6 @@ export const dinos = [
         name:"Brachiosaurus",
         movies:["JP1", "JP3", "JW2", "JW3"],
         diet: "Herbivore",
-        image: "url.blahblah"
-    },
-    {
-        id: 7,
-        name:"",
-        movies:["JP1", "JP2", "JP3", "JW", "JW2", "JW3"],
-        diet: "veggies/meat/omnivore",
         image: "url.blahblah"
     },
     {

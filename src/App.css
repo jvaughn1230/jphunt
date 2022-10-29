@@ -1,0 +1,20 @@
+.dino-pic{
+    height: 200px;
+    width: 200px;
+}
+
+.dino-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chartreuse;
+    width: 400px;
+    margin: 5px;
+}
+
+.dino-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: purple;
+}

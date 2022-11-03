@@ -5,8 +5,8 @@ const DinoCard = (props) => {
   return (
     <div className='dino-card'>
         <img src={testImg} alt='test-img' className='dino-pic' />
-        <div>{props.name}</div>
-        <div>{props.movies}</div>
+        <h3 className='center-text'>{props.name}</h3>
+        <div className='center-text'>{props.movies}</div>
         
         
     </div>

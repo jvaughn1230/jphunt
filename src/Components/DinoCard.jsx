@@ -7,8 +7,6 @@ const DinoCard = (props) => {
         <img src={testImg} alt='test-img' className='dino-pic' />
         <h3 className='center-text'>{props.name}</h3>
         <div className='center-text'>{props.movies}</div>
-        
-        
     </div>
 
   )

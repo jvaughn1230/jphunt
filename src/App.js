@@ -3,7 +3,7 @@ import DinoList from './Components/DinoList';
 
 function App() {
   return (
-    <div>
+    <div className='app-container'>
       <DinoList />
     </div>
   );

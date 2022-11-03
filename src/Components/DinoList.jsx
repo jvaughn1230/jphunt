@@ -16,7 +16,7 @@ const DinoList = () => {
     }
 
     return(
-        <div className='dino-list'>
+        <div className='dino-container'>
             {dinos.map(newDinoCard)}
         </div>
     )

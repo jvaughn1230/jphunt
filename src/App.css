@@ -1,3 +1,10 @@
+/* Colors:
+Green: #4ECE67;
+Red: #EA0A0A;
+Yellow: #F9D440;
+Orange: #F3441C;
+*/
+
 .dino-pic{
     height: 200px;
     width: 200px;
@@ -24,6 +31,8 @@
     margin: 1rem;
     padding: 0.5rem;
     width: 300px;
+    background: rgb(234,10,10);
+    background: radial-gradient(circle, rgba(234,10,10,1) 0%, rgba(249,212,64,1) 100%);
 }
 
 .center-text{

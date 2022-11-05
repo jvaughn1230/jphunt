@@ -1,3 +1,10 @@
+/* Colors:
+Green: #4ECE67;
+Red: #EA0A0A;
+Yellow: #F9D440;
+Orange: #F3441C;
+*/
+
 .dino-pic{
     height: 200px;
     width: 200px;
@@ -24,8 +31,35 @@
     margin: 1rem;
     padding: 0.5rem;
     width: 300px;
+    background: rgb(234,10,10);
+    background: radial-gradient(circle, rgba(234,10,10,1) 0%, rgba(249,212,64,1) 100%);
 }
 
 .center-text{
     text-align: center;
+}
+
+.title-text{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle-text{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title-box{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border: 5px;
+    border-style: solid;
+    border-color: #F7D441; /*switch to a green-yellow gradient*/
+    background-color: black;
 }
